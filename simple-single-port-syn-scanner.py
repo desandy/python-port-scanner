@@ -14,7 +14,7 @@ start_time = time.time()
 
 # Upper limit on TCP Ports is 65535
 # Services can be configured to run on almost any port
-for dst_port in range(1, 10):
+for dst_port in range(1, 65535):
 
     # Set the IP DST Address Field
     # Set the TCP DST Port Field
